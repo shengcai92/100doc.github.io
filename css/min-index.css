@@ -1,0 +1,581 @@
+/*===========  隐藏pc ipad pad端样式  ===========*/
+
+.header-wrap .maxWidth,.banner-picture,.vs,.second-main .main-content,.bg-gap,.case-info,.footer-wrap .maxWidth{display: none;}
+
+/*===========  显示移动端样式  ===========*/
+
+.section-wrap .banner-picture-moblie,.appointment-picture{display: block;width: 100%;}
+.section-wrap .moblie-warpper,.moblie-main-content,.moblie-nav-list,.moblie-carousel,.moblie-footer{display: block;}
+/*,.layer-wrap*/
+/*===========  导航栏 移动端样式  ===========*/
+.moblie-nav-list{
+   	position: fixed;
+    top: 0px;
+    // left: -240px;
+    width: 240px;
+    height: 100%;
+    background-color: #fafafa;
+    z-index: 1000000;
+    transition: all .3s ease-out;
+    -webkit-transform: translateX(-240px);
+    transform: translateX(-240px);
+}
+.moblie-nav-list.nav-left{-webkit-transform: translateX(0);}
+.moblie-nav-list .icon {
+    height: 70px;
+    background: url(../images/moblie/header_v2_logo.png) 50% 50% no-repeat;
+    background-size: 54px;
+}	
+.moblie-nav-list .icon a {
+    display: block;
+    width: 54px;
+    height: 100%;
+    margin: 0 auto;
+}
+.moblie-nav-list ul li {
+    height: 46px;
+    border-top: 1px solid #eee;
+}
+.moblie-nav-list ul li:first-child {
+    border-top: 0 none;
+}
+.moblie-nav-list ul li a {
+    display: block;
+    padding-left: 24px;
+    line-height: 46px;
+    font-size: 14px;
+    color: #787878;
+}
+.moblie-nav-list .btn-reserve {
+    width: 192px;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #4abdcc;
+    border: 1px solid #4abdcc;
+    border-radius: 4px;
+    text-align: center;
+}
+#J_wrap{
+	 transition: all .3s ease-out;
+}
+#J_wrap.wrap-left{-webkit-transform: translateX(240px);}
+
+.layer-wrap{
+	opacity: 0;
+	transition:all .3s ease-out;
+	position: relative;
+
+}
+.layer-wrap.layer-show{opacity: 1;}
+.layer-zIndex{z-index: 100000;}
+.lucency-layer{
+	position: fixed;
+	left: 0;
+	top:0;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	opacity: 0.6;
+	z-index: 100000;
+	transition:all .3s ease-out;
+}
+.layer-main{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    width: 272px;
+    height: 202px;
+    padding: 10px 8px 26px 8px;
+    margin-left: -144px;
+    margin-top: -119px;
+    border-radius: 4px;
+    background-color: #fff;
+    text-align: center;
+    z-index: 100001;
+ }
+.layer-main  h4 {
+    height: 74px;
+    line-height: 74px;
+}
+.layer-main h4 span {
+    display: inline-block;
+    height: 100%;
+    width: 22px;
+    vertical-align: middle;
+    background: url(../images/moblie/logo_login.png) 0 50% no-repeat;
+    background-size: 22px auto;
+}
+.layer-main h4 em {
+    display: inline-block;
+    height: 100%;
+    margin-left: 6px;
+    font-size: 17px;
+    font-weight: normal;
+    color: #323232;
+    vertical-align: middle;
+    font-style: normal;
+    font-weight: normal;
+}
+.layer-main .desc {
+    position: relative;
+    height: 1px;
+    background: #eee;
+    font-size: 12px;
+    color: #969696;
+    margin:15px 0;
+}
+.layer-main .desc span{
+    position: absolute;
+    top: -8px;
+    left: 20%;
+    background: #fff;
+    width: 60%;
+}
+.social-list {
+    margin-top: 35px;
+    height: 80px;
+}
+.social-list li {
+	float: left;
+    width: 33.333%;
+    text-align: center;
+}
+
+.social-list li .icon {
+	margin:0 auto;
+    height: 44px;
+    width: 44px;
+    background-image: url(../images/moblie/icon_login_channel.png);
+    background-repeat: no-repeat;
+    background-size: auto 44px;
+}
+.social-list li:nth-child(2) .icon{
+	background-position: -44px 0;
+}
+.social-list li:nth-child(3) .icon{
+	background-position: -88px 0;
+}
+.social-list li .name {
+    line-height: 36px;
+    height: 36px;
+    font-size: 14px;
+    color: #646464;
+}
+/*===========  头部样式  ===========*/
+
+.header-wrap{
+	height: 54px;
+	line-height: 54px;
+}
+.header-wrap .moblie-header {
+	position: relative;
+	display: block;
+	height: 100%;
+	padding-right: 18px;
+	border-bottom: 1px solid #eee;
+}
+.moblie-header img:nth-child(1){
+	width: 54px;
+	height: 54px;
+	position: relative;
+}
+.moblie-header img:nth-child(2){
+	position: absolute;
+    left: 50%;
+    top: 0px;
+    margin-left: -27px;
+    width: 54px;
+    height: 54px;
+}
+.moblie-header img:nth-child(3){
+    width: 28px;
+    height: 28px;
+ 	margin-top: 14px;   
+ 	position: relative;
+}
+/*===========  主要内容  ===========*/
+
+.section-wrap{
+	padding-top: 54px;
+}
+.moblie-warpper{
+	width: 78%;
+	margin: 0 auto;
+}
+.first-main .maxWidth{
+	width: 100%;
+}
+.first-main .maxWidth>.title{
+    height: 100px;
+    line-height: 100px;
+    font-size: 22px;
+    font-weight: normal;
+    color: #464646;
+    text-align: center;
+}
+.warpper .title {
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: normal;
+    color: #464646;
+}
+.warpper img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.first-main .subtitle{
+     height: 100px;
+    line-height: 100px;
+    font-size: 22px;
+    font-weight: normal;
+    color: #464646;
+    text-align: center;
+}
+.show-list{
+	width: 78%;
+	margin: 0 auto;
+}
+.show-list li{
+	width: 100%;
+	float: none;
+	margin-left: 0;
+	padding-bottom: 26px;
+}
+.show-list li .icon{
+    height: 32px;
+    background-image: url(../images/moblie/icon_promise.png);
+    background-repeat: no-repeat;
+    background-size: auto 128px;
+    background-position: 50% 0;
+}
+.show-list li:nth-child(2) .icon{    background-position: 50% -32px;}
+.show-list li:nth-child(3) .icon{    background-position: 50% -64px;}
+.show-list li:nth-child(4) .icon{    background-position: 50% -96px;}
+
+
+/*===========  详细设计流程  ===========*/
+.second-main .title{
+    height: 64px;
+    line-height: 64px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #fff;
+    text-align: center;
+    background-color: #464646;
+}
+.second-main .title:after{
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -17px;
+    margin-left: -15px;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 18px solid #464646;
+}
+.banner-process{
+	display: block;
+	width: 100%;
+}
+.moblie-main-content ul{
+    width: 78%;
+    margin: 0 auto;
+    padding-top: 32px;
+}
+.moblie-main-content .main{
+    background: url(../images/bg_process.png) 50% 50% no-repeat;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+.main ul li {
+	width: 100%;
+    padding-bottom: 14px;
+    box-sizing: border-box;
+}
+.main ul li .name {
+    height: 46px;
+    line-height: 46px;
+    font-size: 17px;
+    font-weight: normal;
+    color: #323232;
+}
+.main ul li .desc {
+    line-height: 24px;
+    font-size: 14px;
+    color: #787878;
+}
+.moblie-main-content .enterance{
+	position: relative;
+	left: 0;
+	margin:0 auto;
+	width: 78%;
+	height: auto;
+	margin-top: 36px;
+	line-height: 24px;
+	font-size: 13px;
+	color: #969696;
+	text-align: center;
+}
+.moblie-main-content span {
+    margin-top: 36px;
+    line-height: 24px;
+    font-size: 13px;
+    color: #969696;
+    text-align: center;
+}
+.enterance-section{
+    width: 100%;
+    padding: 50px 0 26px 0;
+    box-sizing: border-box;
+}
+.enterance-section .enterance-warpper{
+	width: 75%;
+	margin:0 auto;
+}
+.enterance-section .reserver{
+	width: 100%;
+	padding-bottom: 50px;
+	margin-left: 0;
+}
+.enterance-warpper .reserver .desc {
+    line-height: 24px;
+    text-align: center;
+    font-size: 14px;
+    color: #646464;
+    color: #646464;
+}
+.gap-section{
+	height: auto;
+}
+.gap-section .gap-content{
+    position: absolute;
+    width: 84%;
+    left: 50%;
+    top: 50%;
+    margin-left: -42%;
+    margin-top: -72px;
+}
+.gap-section .gap-content .name{
+	width: 100%;
+	height: auto;
+	float: none;
+    line-height: 36px;
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+}
+.gap-section .gap-content .submit-form{
+	float: none;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    font-size: 13px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    width: 160px;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+/*===========  最美家案例  ===========*/
+
+.third-main .title{
+	height: 100px;
+    line-height: 100px;
+    font-size: 22px;
+    font-weight: normal;
+    color: #464646;
+    text-align: center;
+}
+.swiper-container{
+	width: 86%;
+	margin:0 auto;
+}
+.case-picture{
+	width: 100%;
+	max-height: 200px;
+	margin:0;
+	position: relative;
+}
+.case-picture .back-picture{
+	display: block;
+	width: 100%;
+	border-radius: 4px;
+}
+.case-picture .designer{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    height: 36px;
+}
+.case-picture .designer img {
+    float: left;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+.case-picture .designer .info {
+    float: left;
+    margin-left: 10px;
+}
+.case-picture .designer .info .nick-name {
+    padding-top: 3px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 14px;
+    color: #fff;
+}
+.case-picture .designer .info .role {
+    font-size: 10px;
+    color: #fff;
+}
+.moblie-case h6{
+    padding-top: 12px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: normal;
+    color: #323232;
+}
+.moblie-case .info-list{
+	width: 80%;
+	margin:0 auto;
+	overflow: hidden;
+}
+.moblie-case .info-list li {
+	width: 30%;
+	float: left;
+	box-sizing: border-box;
+}
+.moblie-case .info-list li:nth-child(2){
+	width: 40%;
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+}
+.moblie-case .info-list li .title {
+    padding-top: 4px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ff4e30;
+}
+.info-list li .title sup {
+    vertical-align: top;
+    font-size: 12px;
+    line-height: 12px;
+}
+.moblie-case .info-list li p {
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: #969696;
+}
+.carousel-list{
+	height: 74px;
+	margin-top:30px;
+}
+.carousel-list .swiper-slide{
+	height: 74px;
+	overflow: hidden;
+}
+.carousel-list img{
+	display: block;
+	width: 100%;
+    max-height: 74px;
+}
+
+
+/*===========  底部样式  ===========*/
+
+.footer-wrap{padding-top:0;}
+.moblie-footer{
+	padding-bottom: 30px;
+}
+.moblie-footer .logo {
+    height: 98px;
+    background: url(../images/moblie/footer_v2_logo.png) 50% 50% no-repeat;
+    background-size: auto 98px;
+}
+.moblie-footer .phone {
+    height: 24px;
+    text-align: center;
+}
+.moblie-footer .phone a{
+    display: inline-block;
+    padding-left: 24px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #464646;
+    background: url(../images/moblie/footer_v2_phone.png) 0 50% no-repeat;
+    background-size: 14px auto;
+}
+.server-flow{
+	width: 80%;
+    padding-top: 12px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.server-flow li{
+	float: left;
+	width: 25%;
+}
+.server-flow li a {
+    display: block;
+    width: 100%;
+    height: 42px;
+    line-height: 42px;
+    font-size: 14px;
+    color: #646464;
+    text-align: center;
+}
+.btn-reserver {
+    width: 190px;
+    margin: 24px auto 22px auto;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #4abdcc;
+    border-radius: 4px;
+    text-align: center;
+    border: 0 none;
+}
+.share-icon{
+	width: 224px;
+	margin:0 auto;
+	overflow: hidden;
+}
+.share-icon li{
+    float: left;
+    width: 56px;
+    height: 52px;
+    background-image: url(../images/moblie/footer_v2_contact.png);
+    background-repeat: no-repeat;
+    background-size: auto 104px;
+}
+.share-icon li:nth-child(2){background-position-x: -56px;}
+.share-icon li:nth-child(3){background-position-x: -112px;}
+.share-icon li:nth-child(4){background-position-x: -168px;}
+.footer-foot-desc{
+	line-height: 16px;
+    margin-top: 14px;
+    font-size: 10px;
+    color: #969696;
+    text-align: center;
+}
