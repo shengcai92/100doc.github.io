@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>医百官网</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui">
+    <link rel="stylesheet" href="style/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/css/bootstrap-responsive.min.css">
+    <link rel="stylesheet" href="style/css/jquery.fullPage.css">
+    <link rel="stylesheet" href="style/css/normal.css">
+    <link rel="stylesheet" href="style/css/index.css">
+</head>
+
+<body onload="loadBody()">
+<!-- 头部导航开始 -->
+<div class="navbar navbar-inverse navbar-fixed-top pos_fixed">
+  <div class="navbar-inner opacity_color">
+    <div class="container my_container">
+      <button type="button" class="btn btn-navbar m_r25 m_t15 opacity_color nav_box_menu_btn" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="brand m_f20" href="#page1"><img src="style/img/logo.png"></a>
+
+      <div class="nav-collapse collapse nav_box_menu">
+        <ul class="nav p_f15 m_t15 nav_color font14 m_left5" id="trans">
+          <li ><a data-menuanchor="page1" dateType = "1" href="javascript:;" onclick="toIndex()">首页</a></li>
+          <li ><a data-menuanchor="page3" dateType = "3" href="#page3">直播</a></li>
+          <li><a data-menuanchor="page4" dateType = "4" href="#page4">视频</a></li>
+          <li><a data-menuanchor="page6" dateType = "6" href="#page6">产品</a></li>
+          <li><a data-menuanchor="page7" dateType = "7" href="#">关于医百</a></li>
+        </ul>
+        <div class="f_right m_t10 login_box none">
+            <span class="line nav_color">远程培训</span>
+            <span class="nav_color">登录／注册</span>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- 头部导航结束 -->
+<!-- 全屏滚动播放开始 -->
+<div id="dowebok">
+    <div class="section page1" style="background:url(style/img/首页_背景图.png) center center;background-size: cover;">
+        <h3 class="text_center head_img">
+            <image class="section-image" src="style/img/登录页面_中国顶级医学直播平台.png"/>
+        </h3>
+        <div class="w_100">
+            <p class="width_p" style="margin-top:1.8%;">
+            医百直播是中国顶级的医学直播平台，致力于利用互联网+和直播+来打造一个集免费的视频直播、点播、互动和图文分享、传播、获取和教育的平台。通过平台连接中国数百万的医生，为他们提供讲座、培训、交流的互动平台，帮助医生实现医学知识的变现
+        </p>
+        </div>
+        <div class="test text_center">
+            <span class="sp color_white">医百APP</span>
+            <span class="sp color_white">医百微信号</span>
+            <a class="down color_white">医百PC客户端</a>
+
+            <div class='bg'>
+            <span class="none" data-id="0"><img src="./style/img/首页_app_160_黑色.png" alt=""></span>
+            <span class="none" data-id="1"><img src="./style/img/首页_微信_160_黑色.png" alt=""></span>
+            <span></span>
+        </div>
+        </div>
+    </div>
+    <div class="section page2" style="background:url(style/img/中华医学会.png) center center;background-size: cover;">
+    </div>
+    <div class="section page3" id="1F" style="background:url(style/img/医学直播.png) center center;background-size: cover;">
+    </div>
+    <div class="section page4" style="background:url(style/img/医学视频.png) center center;background-size: cover;">
+    </div>
+    <div class="section page5" style="background:url(style/img/医学知识分享和变现.png) center center;background-size: cover;">
+    </div>
+    <div class="section last page6 pos_relative" style="background:url(style/img/医百产品.png) center center; background-size: cover;">
+       <div class="about_class" style="">
+           <div class="erRig text_center" style="">
+               <p class="about_class_p" style="">
+                   <image src="style/img/qt/医百产品_app_120.png" style="margin-top:20px;";/>
+
+               </p>
+               <p class="tip">
+                   <span>医百APP</span><br>
+                   <span>扫描下载iOS及安卓版本</span>
+               </p>
+
+           </div>
+           <div class="erRig text_center" style="">
+               <p class="about_class_p" style="">
+                   <image class="m_t20" src="style/img/qt/医百产品_微信_120.png" style="";/>
+               </p>
+               <p class="tip">
+                   <span>医百公众号</span><br>
+                   <span>扫描关注医百公众号</span>
+               </p>
+           </div>
+           <div class="erRig text_center">
+               <p class="about_class_p_last down"  style="">PC客户端</p>
+               <p class="tip">
+                   <span>PC客户端</span><br>
+                   <span>客户端下载， 用电脑直播</span>
+               </p>
+           </div>
+
+       </div>
+       <div class="fot">
+           <p>
+               <span class="line font12">关于医百</span>
+               <span class="line font12">联系医百</span>
+               <span class="font12">隐私声明</span>
+           </p>
+           <p>
+               <span class="font12">Copyright &copy; 2017 北京医百科技有限公司 All Rights Reserved</span>
+               <i></i>
+               <span class="font12">京ICP备17009365号-1</span>
+           </p>
+       </div>
+   </div>
+</div>
+<!-- 全屏滚动播放结束 -->
+</body>
+<script src="style/js/jquery.min.js"></script>
+<script src="style/js/bootstrap.min.js"></script>
+<script src="style/js/jquery.fullPage.min.js"></script>
+<script src="style/js/index.js"></script>
+<script type="text/javascript">
+    function loadBody() {
+        toIndex();
+        // console.log('1111')
+    };
+    function toIndex() {
+        if(navigator.userAgent.indexOf("MSIE")!=-1 || navigator.userAgent.indexOf("Edge")!=-1 || navigator.userAgent.indexOf("rv:11.0")!=-1) {
+            // console.log('11')
+            location.href=location.pathname.substring(1,location.pathname.length) + '#page1';
+        } else {
+            location.href=location.pathname + '#page1';
+        }
+    }
+</script>
+</html>

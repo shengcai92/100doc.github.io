@@ -1,0 +1,315 @@
+body{
+  background-color: #ccc;
+}
+.text_intend {
+  text-indent: -9999px !important;
+}
+.opacity_color {
+  background: rgba(0,0,0,0.4) !important;
+  background-image: none !important;
+  border-color: rgba(0,0,0,0.2) !important;
+}
+.my_container {
+  width: 1200px;
+  height: 70px;
+  line-height: 50px;
+}
+.pos_fixed {
+  position: fixed;
+}
+.pos_relative {
+  position: relative;
+}
+.pos_absolute {
+  position: absolute;
+}
+.m_top20 {margin-top: 20% !important;}
+.m_top2 {margin-top: 2% !important;}
+.m_top3 {margin-top: 3% !important;}
+.m_top4 {margin-top: 4% !important;}
+.m_top5 {margin-top: 5% !important;}
+.m_left10 {margin-left: 10% !important;}
+.m_left5 {margin-left: 5% !important;}
+.w_100 {
+  width: 100%;
+}
+.nav_color,.nav_color li a {
+  color: #fff !important;;
+}
+.nav_color li a {
+  font-size: 18px;
+  margin: 0 20px;
+}
+
+.section p {
+  font-family: MicrosoftYaHei;
+  font-size: 16px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 32px;
+  width: 580px;
+  margin: 0 auto;
+}
+.test {
+  width: 100%;
+  height: 40px;
+  margin-top: 2%;
+}
+
+.test span.sp {
+  width: 200px;
+  height: 40px;
+  font: 20px "Microsoft Yahei";
+  background: rgba(0, 0, 0, 0.30);
+  border-radius: 100px;
+  display: inline-block;
+  margin: 0 50px 0 50px;
+  line-height: 40px;
+  cursor: pointer;
+}
+.test a {
+  width: 200px;
+  height: 40px;
+  font: 20px "Microsoft Yahei";
+  background: rgba(0, 0, 0, 0.30);
+  border-radius: 100px;
+  display: inline-block;
+  margin: 0 50px 0 50px;
+  line-height: 40px;
+  position: relative;
+  z-index: 1000;
+  cursor: pointer;
+}
+.menu div{
+  display: inline-block;
+  color: #FFFFFF;
+  line-height: 70px;
+}
+.menu div img{
+  vertical-align: middle;
+}
+.menu div:nth-child(1){
+  position: absolute;
+  left: 10%;
+}
+.menu div:nth-child(2){
+  position: absolute;
+  left: 25%;
+  right: 20%;
+}
+.menu div:nth-child(2) span{
+  padding: 0 4%;
+  font-size: 18px;
+}
+
+.menu div:nth-child(3){
+  position: absolute;
+  right: 10%;
+}
+.menu div:nth-child(3) span{
+  padding: 0 10px 0 10px;
+  font-size: 14px;
+}
+.line:after{
+  content: "";
+  width: 1px;
+  height: 10px;
+  background-color: #FFFFFF;
+  display: inline-block;
+  margin-left: 25px;
+}
+.fot{
+  text-align: center;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+}
+.last{
+  background-repeat: no-repeat;
+  background-position: 0 -70px;
+}
+.fot p:nth-child(1) span{
+  padding: 10px;
+}
+.fot p:nth-child(2) i{
+  margin: 0 8px;
+  width: 1px;
+  display: inline-block;
+  height: 14px;
+  background-color: #ffffff;
+}
+
+.bg span{
+  margin: 0 65px;
+  position: relative;
+  top: -140px;
+  left: 15px;
+}
+.bg span{
+  background-image:url(../img/qt/二维码_弹框.png);
+  height:184px;
+  width:170px;
+  display:inline-block;
+  text-align: center;
+  background-size: 170px;
+}
+.bg span img{
+    position: relative;
+    top: 30px;
+    width: 140px;
+    height: 140px;
+}
+
+.bg span:nth-child(3){
+    height:218px;
+    width:200px;
+    display:inline-block;
+    background-image: none;
+}
+.erRig {
+  margin-bottom:3%;margin-left:0px;
+}
+.erRig p{
+    display: inline-block;
+    position: relative;
+    left: 17%;
+    vertical-align: middle;
+}
+.tip{
+    text-align: left;
+    width: 200px !important;
+}
+.tip span:nth-child(1){
+    color: #FFFFFF;
+    font-size: 24px;
+    text-align: left;
+}
+.tip span:nth-child(2){
+    color: #FFFFFF;
+    font-size: 18px;
+    text-align: left;
+}
+.none{
+    filter:alpha(opacity=0);
+    -moz-opacity:0;
+    opacity:0;
+}
+/* .about_class {
+  position: absolute;right:0;top: 18%;display: block;margin-right: 30%;
+} */
+.erRig .about_class_p {
+  background: #FFFFFF;border-radius: 8px;width:10rem;height:10rem;display: inline-block;margin-right: 20px;
+}
+.erRig .about_class_p_last {
+    background: #FFFFFF;border-radius: 15px;width:160px;height:160px;display: inline-block;
+    cursor:pointer;background-image:url(../img/qt/pc客户端_下载按钮_默认.png);
+    width:160px;height:66px;line-height:66px;font-family: FZHTJW--GB1-0;font-size: 24px;color: #FFFFFF;
+    margin-right: 20px;
+  }
+  .section .width_p {
+    width: 660px;
+    text-align: center;
+  }
+/* .fp-tableCell {
+    display: block;
+    vertical-align: inherit;
+    width: 100%;
+    margin: 18% auto;
+} */
+/* .fp-tableCell {
+    display: block;
+    vertical-align: inherit;
+    width: 100%;
+    height: 100%;
+    margin-top: 15%;
+}
+ */
+@media only screen and (max-width: 979px) {
+  .my_container {
+    height: 50px;
+    line-height: 40px;
+  }
+  .test span.sp {
+    width: 300px;
+    margin: 10px 10%;
+  }
+  .test a {
+    width: 300px;
+    margin: 10px 10%;
+  }
+  .section p {
+    width: 80%;
+  }
+  .about_class {
+    position: absolute;right:0;top: 20%;display: block;margin-right: 30%;
+  }
+  .erRig .about_class_p {
+    background: #FFFFFF;border-radius: 8px;width:120px;height:120px;display: inline-block;
+    padding: 20px 20px 20px 20px;
+  }
+
+  .erRig .about_class_p img {
+    margin-top: 0 !important;
+  }
+
+  .nav-collapse, .nav-collapse.collapse {
+    background-color: rgba(0,0,0,0.4);
+  }
+  #trans li a {
+    text-align: right;
+  }
+  .login_box {
+    margin-right: 30px;
+  }
+  #fp-nav.right {
+    right: 10px;
+  }
+  .navbar-inverse .nav-collapse .nav>li>a:hover {
+    background-color: rgba(0,0,0,0.4);
+  }
+  .erRig {
+    margin-bottom:10%;margin-left:-35px;
+  }
+  .section p {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 475px) {
+  .my_container {
+    height: 50px;
+    line-height: 40px;
+  }
+  .head_img {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: -45% !important;
+  }
+  .section p {
+    width: 80%;
+  }
+  .test span.sp {
+    width: 200px;
+    margin: 10px 10%;
+  }
+  .test a {
+    width: 200px;
+    margin: 10px 10%;
+  }
+  .test {
+    margin-top: -5px;
+  }
+   .about_class {
+    position: absolute;right:0;top: 20%;display: block;margin-right: 20%;
+  }
+  .erRig .about_class_p {
+    background: #FFFFFF;border-radius: 8px;width:80px;height:80px;display: inline-block;
+    padding: 20px 20px 20px 20px;
+  }
+  .erRig .about_class_p img {
+    margin-top: 0 !important;
+  }
+  .section p {
+    width: 70%;
+  }
+}
